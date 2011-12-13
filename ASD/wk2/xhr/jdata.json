@@ -1,0 +1,246 @@
+{
+    "items": [ 
+        {"category":
+	    [
+	     "Category:",
+	     "Blunt"
+	     ],"subcategory":["Subcategory:","club"],"iname":["Item Name:","waddy"],"quantity":["Quantity:","2"],"weight":["Weight:","6.8 lbs."],"conceal":["Concealable:","no"],"favorites":["Favorites:","yes"],"notes":["Notes:","Australian Aboriginal war club"],"saved":["Entered on:","2011-10-11T15:53:19.342Z"]},
+        {"category":["Category:","Poison"],"subcategory":["Subcategory:","ingested"],"iname":["Item Name:","lily of the valley"],"quantity":["Quantity:","1"],"weight":["Weight:","0.1 oz."],"conceal":["Concealable:","yes"],"favorites":["Favorites:","no"],"notes":["Notes:","Sweet red berries, Walter White's favorite"],"saved":["Entered on:","2011-10-11T15:29:23.710Z"]},
+	{"category":["Category:","Poison"],"subcategory":["Subcategory:","ingested"],"iname":["Item Name:","iocaine powder"],"quantity":["Quantity:","1"],"weight":["Weight:","0.1 oz."],"conceal":["Concealable:","yes"],"favorites":["Favorites:","yes"],"notes":["Notes:","Odorless, tasteless, dissolves instantly in water."],"saved":["Entered on:","2011-10-09T16:57:59.098Z"]},
+	{"category":["Category:","Bladed"],"subcategory":["Subcategory:","sword"],"iname":["Item Name:","katana"],"quantity":["Quantity:","2"],"weight":["Weight:","1.4 lbs."],"conceal":["Concealable:","no"],"favorites":["Favorites:","no"],"notes":["Notes:","Stick them with the pointy end!"],"saved":["Entered on:","2011-10-02T15:25:56.983Z"]},
+	{"category":["Category:","Thrown"],"subcategory":["Subcategory:","ninja star"],"iname":["Item Name:","shuriken"],"quantity":["Quantity:","1"],"weight":["Weight:","0.3 oz."],"conceal":["Concealable:","yes"],"favorites":["Favorites:","yes"],"notes":["Notes:","Will stick in eyes"],"saved":["Entered on:","2010-05-11T15:46:22.899Z"]},
+	{"category":["Category:","Thrown"],"subcategory":["Subcategory:","dart"],"iname":["Item Name:","rope javelin"],"quantity":["Quantity:","4"],"weight":["Weight:","1.1 oz."],"conceal":["Concealable:","no"],"favorites":["Favorites:","no"],"notes":["Notes:","allows the user to throw the dart out at a long range target and use the rope to pull it back"],"saved":["Entered on:","2011-06-11T15:46:22.899Z"]},
+	{"category":["Category:","Blunt"],"subcategory":["Subcategory:","baton"],"iname":["Item Name:","night stick"],"quantity":["Quantity:","2"],"weight":["Weight:","1.5 lbs."],"conceal":["Concealable:","no"],"favorites":["Favorites:","no"],"notes":["Notes:","may be used to strike, jab, block, and bludgeon"],"saved":["Entered on:","2011-10-11T18:24:52.662Z"]},
+        {"category":["Category: ", "Poison"],
+	    "subcategory":["Subcategory: ", "digestable"],
+	    "iname":["Item Name: ", "cyanide"],
+	    "quantity":["Quantity: ", ""],
+	    "conceal":["Concealable: ", "yes"],
+	    "favorites":["Favorites: ", "no"],
+	    "weight":["Weight: ", "0.5 lbs."],
+	    "notes":["Notes: ", "Bitter taste."],
+	    "saved":["Entered on: ", "2010-04-06T18:01:02.462Z"]
+        },
+        {
+         "category":[    "Category: ", "Poison"],
+	    "subcategory":["Subcategory: ", "digestable"],
+	    "iname":["Item Name: ", "iocaine"],
+	    "quantity":["Quantity: ", ""],
+	    "conceal":["Concealable: ", "yes"],
+	    "favorites":["Favorites: ", "yes"],
+	    "weight":["Weight: ", "0.4 lbs."],
+	    "notes":["Notes: ", "Colorless, odorless, tasteless, dissolves instantly in water. Comes from Australia."],
+	    "saved":["Entered on: ", "2010-04-06T18:01:02.462Z"]
+        },
+        {
+        "category":[     "Category: ", "Poison"],
+	    "subcategory":["Subcategory: ", "intravenous"],
+	    "iname":["Item Name: ", "potassium chloride"],
+	    "quantity":["Quantity: ", ""],
+	    "conceal":["Concealable: ", "yes"],
+	    "favorites":["Favorites: ", "yes"],
+	    "weight":["Weight: ", "0.2 lbs."],
+	    "notes":["Notes: ", "Complicated."],
+	    "saved":["Entered on: ", "2010-04-06T18:01:02.462Z"]
+        },
+        {
+         "category":[ "Category: ", "Poison"],
+	    "subcategory":["Subcategory: ", "inhaled"],
+	    "iname":["Item Name: ", "carbon monoxide"],
+	    "quantity":["Quantity: ", ""],
+	    "conceal":["Concealable: ", "yes"],
+	    "favorites":["Favorites: ", "no"],
+	    "weight":["Weight: ", ""],
+	    "notes":["Notes: ", "Foul odor and hazy."],
+	    "saved":["Entered on: ", "2010-04-06T18:01:02.462Z"]
+        },
+        {
+         "category":["Category: ", "Bladed"],
+	    "subcategory":["Subcategory: ", "mace"],
+	    "iname":["Item Name: ", "morningstar"],
+	    "quantity":["Quantity: ", 2],
+	    "conceal":["Concealable: ", "no"],
+	    "favorites":["Favorites: ", "yes"],
+	    "weight":["Weight: ", "4.5 lbs."],
+	    "notes":["Notes: ", "Good for smashing faces."],
+	    "saved":["Entered on: ", "2010-12-06T18:01:02.462Z"]
+        },
+        {
+         "category":["Category: ", "Thrown"],
+	    "subcategory":["Subcategory: ", ""],
+	    "iname":["Item Name: ", "shuriken"],
+	    "quantity":["Quantity: ", 12],
+	    "conceal":["Concealable: ", "yes"],
+	    "favorites":["Favorites: ", "yes"],
+	    "weight":["Weight: ", "0.2 lbs."],
+	    "notes":["Notes: ", "Sticks to anything."],
+	    "saved":["Entered on: ", "2011-07-20T18:01:02.462Z"]
+        },
+        {
+         "category":[    "Category: ", "Thrown"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "throwing stars"],
+			"quantity":["Quantity: ", 24],
+			"conceal":["Concealable: ", "yes"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "0.1 lbs."],
+			"notes":["Notes: ", "Sharp."],
+			"saved":["Entered on: ", "2011-09-16T18:01:02.462Z"]
+        },
+        {
+          "category":[   "Category: ", "Thrown"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "Bo shuriken"],
+			"quantity":["Quantity: ", 5],
+			"conceal":["Concealable: ", "yes"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "0.5 lbs."],
+			"notes":["Notes: ", "Feathered ends for distance."],
+			"saved":["Entered on: ", "2011-10-01T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Blunt"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "Kubotans"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "no"],
+			"weight":["Weight: ", "1.5 lbs."],
+			"notes":["Notes: ", "Good for smashing faces."],
+			"saved":["Entered on: ", "2011-08-06T18:01:02.462Z"]
+        },
+        {
+            "category":[ "Category: ", "Blunt"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "Telescopic Steel Baton"],
+			"quantity":["Quantity: ", 3],
+			"conceal":["Concealable: ", "yes"],
+			"favorites":["Favorites: ", "no"],
+			"weight":["Weight: ", "1.8 lbs."],
+			"notes":["Notes: ", "Good for smashing faces AND hiding."],
+			"saved":["Entered on: ", "2011-10-06T18:01:02.462Z"]
+        },
+        {
+            "category":[ "Category: ", "Blunt"],
+			"subcategory":["Subcategory: ", "dual wield"],
+			"iname":["Item Name: ", "tonfa"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "1.7 lbs."],
+			"notes":["Notes: ", "Good for smashing faces."],
+			"saved":["Entered on: ", "2011-05-26T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Blunt"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "Police Side Baton"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "1.8 lbs."],
+			"notes":["Notes: ", "Good for smashing faces."],
+			"saved":["Entered on: ", "2011-10-02T18:01:02.462Z"]
+        },
+
+        {
+            "category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "sword"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "4.5 lbs."],
+			"notes":["Notes: ", "Good for smashing faces."],
+			"saved":["Entered on: ", "2011-10-06T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "spear"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "4.5 lbs."],
+			"notes":["Notes: ", "Cuts."],
+			"saved":["Entered on: ", "2011-06-10T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "rondel dagger"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "4.5 lbs."],
+			"notes":["Notes: ", "Cuts."],
+			"saved":["Entered on: ", "2011-06-10T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "swiss degen"],
+			"quantity":["Quantity: ", 1],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "2.5 lbs."],
+			"notes":["Notes: ", "Cuts."],
+			"saved":["Entered on: ", "2011-06-10T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", "two-handed"],
+			"iname":["Item Name: ", "glaive"],
+			"quantity":["Quantity: ", 1],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "5.8 lbs."],
+			"notes":["Notes: ", "Cuts."],
+			"saved":["Entered on: ", "2011-06-10T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", "two-handed"],
+			"iname":["Item Name: ", "Viking halberd"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "4.5 lbs."],
+			"notes":["Notes: ", "Cuts."],
+			"saved":["Entered on: ", "2011-06-10T18:01:02.462Z"]
+        },
+        {
+            "category":[ "Category: ", "Blunt"],
+			"subcategory":["Subcategory: ", ""],
+			"iname":["Item Name: ", "brass knuckles"],
+			"quantity":["Quantity: ", 6],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "0.4 lbs."],
+			"notes":["Notes: ", "Good for smashing faces."],
+			"saved":["Entered on: ", "2011-10-06T18:01:02.462Z"]
+        },
+        {
+        	"category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", "one-handed"],
+			"iname":["Item Name: ", "Dane axe"],
+			"quantity":["Quantity: ", 1],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "yes"],
+			"weight":["Weight: ", "4.5 lbs."],
+			"notes":["Notes: ", "Cuts."],
+			"saved":["Entered on: ", "2011-06-10T18:01:02.462Z"]
+        },
+        {
+            "category":[ "Category: ", "Bladed"],
+			"subcategory":["Subcategory: ", "sword"],
+			"iname":["Item Name: ", "pata"],
+			"quantity":["Quantity: ", 2],
+			"conceal":["Concealable: ", "no"],
+			"favorites":["Favorites: ", "no"],
+			"weight":["Weight: ", "3.2 lbs."],
+			"notes":["Notes: ", "Good for cutting faces."],
+			"saved":["Entered on: ", "2011-104-09T18:01:02.462Z"]
+        }
+    ]   
+}

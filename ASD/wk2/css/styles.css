@@ -1,0 +1,143 @@
+/*author: Alexia Dawson
+style for project 2*/
+html {
+    background-color: #999;
+}
+body {
+    font: 65%/1.4 Helvetica, Arial, sans-serif;
+    margin: 10px;
+    background-color: #DDD;
+    max-width: 280px;
+    border: thin solid #6D6D6D;
+}
+nav {
+	margin-bottom: 10px;
+	text-align: left;
+}
+#feature {
+    margin: 68px 0 0;
+    background: url('../images/feature_bg.jpg') no-repeat;
+    background-position: center center;
+}
+#feature img {
+    margin: 154px 24px auto;
+    float: right;
+}
+#main {
+    margin-left: 10px;
+    font-size: 110%;
+}
+.note {
+    margin: 0px;
+    font-style: italic;
+}
+option {
+    padding-bottom: 3px;
+}
+fieldset {
+    border: none;
+    margin: 0;
+}
+h1, h2, legend {
+    font-weight: bold;
+}
+h1 {
+    background-image: linear-gradient(bottom, rgb(117,117,117) 26%, rgb(226, 240, 255) 71%, rgb(240,240,240) 86%);
+    background-image: -o-linear-gradient(bottom, rgb(117,117,117) 26%, rgb(226, 240, 255) 71%, rgb(240,240,240) 86%);
+    background-image: -moz-linear-gradient(bottom, rgb(117,117,117) 26%, rgb(226, 240, 255) 71%, rgb(240,240,240) 86%);
+    background-image: -webkit-linear-gradient(bottom, rgb(117,117,117) 26%, rgb(226, 240, 255) 71%, rgb(240,240,240) 86%);
+    background-image: -ms-linear-gradient(bottom, rgb(117,117,117) 26%, rgb(226, 240, 255) 71%, rgb(240,240,240) 86%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0.26, rgb(117,117,117)),
+            color-stop(0.71, rgb(226, 240, 255)),
+            color-stop(0.86, rgb(240,240,240))
+    );
+    text-align: center;
+    margin-top: 0;
+    margin-left: -10px;
+    font-size: 140%;
+    padding: 5px 0;
+}
+a {
+	padding: 0px;
+	margin: 3px 10px;
+}
+input[type="text"]:focus {background-color:#FFB;}
+input[type="text"]:blur {background-color:#FFF;}
+ul {
+	list-style: none;
+	margin: 10px;
+	padding:0 0 5px;
+}
+legend {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+input, textarea, select {
+    padding: 2px;
+    font: 12px Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+#errors {
+    color: red;
+    font-weight: 500;
+}
+#rangeValue {
+	margin: 5px;
+	color: #397fcc;
+	padding-top: 10px;
+	vertical-align: top;
+}
+#fastforward {
+	margin-bottom: 15px;
+}
+#clear {
+    /*display: none;*/
+}
+#loadData {
+	text-align: right;
+}
+#addweapon {
+    margin-left: -10px;
+    font-size: 11px;
+}
+#addweapon ul {
+    margin: 0;
+}
+#addweapon label {
+    padding-left: 0px;
+    font-size: 13px;
+}
+#noConceal {
+    display: inline;
+    margin-left: 10px;
+}
+#submit {
+    background-color: #A11A2B;
+    border: none;
+    -moz-box-shadow: 2px 3px 1px 1px #535254;
+    -webkit-box-shadow: 2px 3px 1px 1px #535254;
+    box-shadow:  2px 3px 1px 1px #535254;
+    border-radius: 5px;
+    padding: 3px 16px;
+    color: #000;
+    font-weight: bold;
+    margin: 0px 20px 20px 10px;
+    background-image: linear-gradient(bottom, rgb(153, 165, 216) 26%, rgb(226, 240, 255) 71%, rgb(255,255,255) 86%);
+    background-image: -o-linear-gradient(bottom, rgb(153, 165, 216) 26%, rgb(226, 240, 255) 71%, rgb(255,255,255) 86%);
+    background-image: -moz-linear-gradient(bottom, rgb(153, 165, 216) 26%, rgb(226, 240, 255) 71%, rgb(255,255,255) 86%);
+    background-image: -webkit-linear-gradient(bottom, rgb(153, 165, 216) 26%, rgb(226, 240, 255) 71%, rgb(255,255,255) 86%);
+    background-image: -ms-linear-gradient(bottom, rgb(153, 165, 216) 26%, rgb(226, 240, 255) 71%, rgb(255,255,255) 86%);
+    background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0.26, rgb(117,117,117)),
+            color-stop(0.71, rgb(226, 240, 255)),
+            color-stop(0.86, rgb(240,240,240))
+    );
+}

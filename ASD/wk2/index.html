@@ -1,0 +1,241 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+
+<title>Busy Ninja :: plan, organize, kill</title>
+
+<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Mobile IE needs ClearType for smoothing fonts -->
+<meta http-equiv="cleartype" content="on">
+
+<!-- StyleSheets under here -->
+<link rel="stylesheet" href="css/jquery.mobile-1.0rc1.min.css" />
+<link rel="stylesheet" href="css/jquery-mobile-theme-181951-0/themes/ninja.min.css" />
+<!--<link rel="stylesheet" href="css/styles.css" />-->
+<style type="text/css">
+	ul {
+		list-style: none;
+		text-indent: -50px;
+		margin-top: 15px;
+	}
+	.fatbutton {
+		max-width:130px;
+		height: 70px;
+		margin: 150px 10px 20px 150px;
+	}
+	.fatbutton .ui-btn-inner {
+		white-space: normal;
+	}
+	.ui-collapsible-content {
+		padding-bottom:28px;
+	}
+</style>
+
+<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+	<div data-role="page" id="home">
+		
+		<div data-role="header" data-position="fixed">
+			<h1 class="logo">Busy Ninja</h1>		
+		</div>
+		<div data-role="content">
+			<div id="feature">
+				<img src="images/ninjaface.png" alt="The Busy Ninja" />
+				<a href="#addweapon" data-role="button" data-theme="e" class="fatbutton">Add a weapon</a>
+				<a href="#arsenal" data-role="button" data-theme="e">View/Edit weapons</a>
+			</div>
+		</div><!--content-->
+		<div data-role="footer" data-position="fixed">
+			<h4>...</h4>
+		</div>
+		
+	</div><!--home page-->
+	
+	<div data-role="page" id="arsenal" data-add-back-btn="true">
+		
+		<div data-role="header" data-position="fixed">
+			<h1>Arsenal</h1>
+		</div>
+		<div data-role="content">
+			<p>Check out my awesome weapons!</p>
+			
+			<div data-role="collapsible-set" data-theme="e" data-content-theme="d">
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Blades</h3>
+					<ul data-role="listview" id="listItems">
+						<li>
+							<a href="#">
+								<img src="images/Thrown.jpg" />
+								<h3>daggers</h3>
+								<p>Interesting stuff</p>
+							</a>
+						</li>
+						<li>swords</li>
+						<li>other</li>
+					</ul>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Blunt</h3>
+					<p>Date, time, weapons needed, and don't forget directions!</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Thrown</h3>
+					<p>Memories to treasure and share.</p>
+				</div>
+				<div data-role="collapsible" data-collapsed="true">
+					<h3>Poison</h3>
+					<p>Memories to treasure and share.</p>
+				</div>
+			</div> <!--collapsible-set-->
+			<a href="#addweapon" data-role="button" data-theme="e">Add a weapon</a>
+		</div><!--content-->
+		<div data-role="footer" data-position="fixed">
+			<h4>...</h4>
+		</div>
+		
+	</div><!--arsenal page-->
+	
+	<!--
+	<div data-role="page" id="events" data-add-back-btn="true">
+		
+		<div data-role="header" data-position="fixed" id="home">
+			<h1>Plan a job</h1>
+		</div>
+		
+		<div data-role="content">
+			
+			<div data-role="collapsible" data-collapsed="true">
+				<h3>Latest Job</h3>
+				<p>Martha Sunshine, date</p>
+			</div>
+			<div data-role="collapsible" data-collapsed="true">
+				<h3>Plan a kill</h3>
+				<p>Date, time, weapons needed, and don't forget directions!</p>
+			</div>
+			<div data-role="collapsible" data-collapsed="true">
+				<h3>Scrapbook</h3>
+				<p>Memories to treasure and share.</p>
+			</div>
+			<ul data-role="listview" data-inset="true">
+				<li>
+					<a href="#">
+						<img src="images/Thrown.jpg" />
+						<h3>Item 1</h3>
+						<p>Interesting stuff</p>
+					</a>
+				</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			
+		</div><!--content-->
+		
+		<!--<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div>--><!--event page-->
+	
+	
+	<div data-role="page" id="addweapon" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed" id="home">
+			<h1>Add a Weapon</h1>
+		</div>
+		<div data-role="content">
+			<ul id="errors"></ul>
+			<form action="" method="post" id="weaponform">
+				
+				<div data-role="fieldcontain">
+					<label for="category">Category:</label>
+					<select name="category" id="category">
+						<option data-placeholder="true">-- Choose a category --</option>
+						<option value="Bladed">Bladed</option>
+						<option value="Blunt">Blunt</option>
+						<option value="Thrown">Thrown</option>
+						<option value="Poison">Poison</option>
+					</select>
+				</div>
+				<div data-role="fieldcontain">
+					<label for="subcategory">Subcategory</label>
+                			<input type="text" name="subcategory" id="subcategory" />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="iname">Name:</label>
+					<input type="text" name="iname" id="iname" class="required" />
+				</div>
+				<div data-role="fieldcontain">
+					<label for="weight">Weight: </label>
+					<input type="text" name="weight" id="weight" />
+				</div>
+				
+				<div data-role="fieldcontain">	
+					<label for="quantity">Quantity:</label><p>(for poisons, choose 0)</p>
+					<input type="range" name="quantity" id="quantity" value="0" min="0" max="20" class="number" />
+				</div>
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal"> 
+						<legend>Concealable?</legend>
+							<input type="radio" value="yes" name="conceal" id="conceal-choice-1" class="required" />
+							<label for="conceal-choice-1">Yes</label>
+					
+							<input type="radio" value="no" name="conceal" id="conceal-choice-2"  />
+							<label for="conceal-choice-2">No</label>
+					</fieldset>
+				</div>
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup" data-type="horizontal" > 
+						<legend>Add to Favorites?</legend>
+							<input type="radio" value="yes" name="favorite" id="favorite-choice-1" class="required" />
+							<label for="favorite-choice-1">Yes</label>
+							<input type="radio" value="no" name="favorite" id="favorite-choice-2"  />
+							<label for="favorite-choice-2">No</label>
+					</fieldset>
+				</div>
+				<div data-role="fieldcontain">
+					<label for="notes">Notes:</label>
+					<textarea name="notes" id="notes"></textarea>
+				</div>
+				<div data-role="fieldcontain">
+					<input type="reset" value="Reset the form" data-theme="a" />
+					<input type="submit" id="submit" value="Save the weapon" data-theme="b" />
+				</div>
+				<!--<div data-role="fieldcontain">
+					<label for="weaponsearch">Search weapons: </label>
+					<input type="search" name="weaponsearch" id="weaponsearch" />
+				</div>-->
+				<a href="#weaponerrors" id="weaponerrorslink" data-rel="dialog" data-transition="pop">Open Errors</a>
+			</form>
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h4>Footer</h4>
+		</div>
+		
+	</div><!--addweapon page-->
+	
+		<div data-role="dialog" id="weaponerrors">
+			<div data-role="header" data-position="fixed" id="home">
+				<h1>Missing fields</h1>
+			</div>
+			<div data-role="content">
+				<ul>
+					<li>Test</li>
+				</ul>
+			</div>
+		</div><!-- -->
+		
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0rc1/jquery.mobile-1.0rc1.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

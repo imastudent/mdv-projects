@@ -1,0 +1,198 @@
+body, .category, input, #search input {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #000; 
+    font-family: 'Helvetica', sans-serif;  
+    font-size: 20px;
+    color: #FFF;
+ }
+#accordion {
+    text-indent: 18px;
+}
+img {
+    border: hidden;
+}
+#feature {
+    margin: 68px 0 0;
+    background: url('../images/feature_bg.jpg') no-repeat;
+    background-position: center center;
+    height: 248px;
+}
+#feature img {
+    margin: 154px 24px auto;
+    float: right;
+}
+/*#searchbutton {
+	margin-top: -40px;
+}*/
+#tagline {
+    margin: 0 0 0 26px;
+}
+#main {
+    width: 320px;
+    margin: 8px auto 8px 10px;
+}
+.category { 
+    background: url('../images/category_button.gif') no-repeat; 
+    background-position: left bottom; 
+    height: 46px; 
+    width: 307px; 
+    overflow: hidden; 
+    font-variant: small-caps;
+    font-size: 22px;
+    /*color: #616065;*/
+    line-height: 2.3em;
+    text-decoration: none;
+    color: #000;
+}
+.subcategory { 
+    margin: 1px 0 0 -20px; 
+    padding: 0; 
+    background: url('../images/subcategory_button.gif') no-repeat; 
+    background-position: left center; 
+    height: 41px; 
+    width: 287px; 
+    overflow: hidden;
+    font-style: oblique;
+    font-size: 18px;
+    color: #000;
+    line-height: 2.5em;
+}
+header h1 {
+    display: none;
+}
+#tagline {
+    color: #FFF;
+    font-size: 17px;
+    margin: 0 0 4px 40px;
+    font-weight: 400;
+    
+}
+div#browse h2 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 18px 0 4px 0;
+    color: #FFFCEF;
+}
+h2 span {
+    color: red;
+}
+h3 a {
+    color: #000;
+    text-decoration: none;
+}
+nav a {
+    color: #FFF;
+    font-weight: 300;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    float: right;
+    padding: 6px;
+    margin-top: 6px;
+}
+nav {
+	margin-bottom: 10px;
+}
+form {
+    float: right;
+    display: block;
+    margin-top: 10px;
+   }
+input { 
+    height: 47px; 
+    border: 0; 
+    background: transparent;
+    font-style: italic;
+    font-size: 14px;
+    color: #666;
+    text-indent: 20px;
+    display: inline;
+    }
+#search input {
+    background: url('../images/search_field.jpg') no-repeat; 
+    background-position: center right; 
+    overflow: hidden;
+    width: 202px;
+}
+input:focus{
+    text-decoration: none;
+    border: none;
+}
+#search button { 
+    margin: -46px 2px 0 0;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    float: right;
+    display: inline; 
+    /*position: absolute;
+    left: 350px;*/
+    }
+legend {
+    display: none;
+}
+fieldset {
+    border: groove #000;
+}
+label {
+    font-size: 14px;
+}
+footer {
+    font-size: 8px;
+    float: right;
+    margin: 10px 20px 6px 0;
+}
+ul {
+    margin: 0;
+}
+li {
+    margin-left: -40px;
+}
+#addweapon {
+    font-size: 14px;
+    background-color: #6E6B72;
+    margin: 10px auto;
+    float: left;
+    padding: 4px;
+    max-width: 340px;
+}
+#addweapon input, #addweapon select {
+    background-color: #FFF;
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    text-indent: 2px;
+    border: medium; 
+    font-style: normal;
+    font-size: 12px;
+    color: #000;
+    padding: 2px;
+}
+label {
+    display: block;
+}
+textarea {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+#addweapon #submit {
+	margin: 10px;
+	background-color: #FF3500;
+	font-weight: bold;
+	border: outset;
+}
+#items ul{
+	margin: 20px;
+	list-style: none;
+}
+#items {
+	font-weight: 200;
+	font-style: normal;
+	color: #FFFCEF;
+	margin-top: 50px;
+	font-size: 13.5px;
+}
+
+
